@@ -17,13 +17,13 @@ const PREFIX = '$';
 var version = '1.0.1';
 var dinero = '50 euros';
 
-bot.on('ready', () =>{
+client.on('ready', () =>{
     console.log('Kirin esta listo y atento para el servicio');
     bot.user.setActivity('la Crisis Final', { type: 'WATCHING'}).catch(console.error);
 })
 
 //Respuesta a la persona que escribe
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "Hola Kirin"){
         msg.reply('Bienvenid@, disfruta de tu aventura en Final Crisis');
     }
@@ -31,7 +31,7 @@ bot.on('message', msg=>{
 })
 
 //Respuesta en el canal
-bot.on('message', message=>{
+client.on('message', message=>{
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch(args[0]){
@@ -56,7 +56,7 @@ bot.on('message', message=>{
 })
 
 //Para usar la misma linea en los embed poner , true al final.
-bot.on('message', message =>{
+client.on('message', message =>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
 
@@ -76,7 +76,7 @@ bot.on('message', message =>{
 })
 
 //Comando dinero
-bot.on('message', message =>{
+client.on('message', message =>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
 
@@ -95,7 +95,7 @@ bot.on('message', message =>{
     }
 })
 //Comando ayuda
-bot.on('message', message =>{
+client.on('message', message =>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
 
@@ -113,7 +113,7 @@ bot.on('message', message =>{
 })
 
 //Reply Carballo
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "carballo" || msg.content === "Carballo" || msg.content === "carba"){
         msg.reply('Vaya soplagaitas es ese tal Carballo');
     }
@@ -121,7 +121,7 @@ bot.on('message', msg=>{
 })
 
 //Reply Dani
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "dani" || msg.content === "Dani" || msg.content === "Daniel"){
         msg.reply('Ese medico guapoooooo! <3');
     }
@@ -129,7 +129,7 @@ bot.on('message', msg=>{
 })
 
 //Reply Mengueche
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "sebas" || msg.content === "Sebas" || msg.content === "mengueche"){
         msg.reply('Ave!! O todopoderoso y magnánimo creador');
     }
@@ -137,14 +137,14 @@ bot.on('message', msg=>{
 })
 
 //Reply Belleza
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "Quien es el mas guapo de todo discord?" || msg.content === "Quién es el mas guapo de todo discord?" || msg.content === "Quien es la mas guapa de todo discord?"){
         msg.reply('Eres tu bellezón ;)');
     }
 
 })
 
-bot.on('message', message =>{
+client.on('message', message =>{
     let args = message.content.substring(PREFIX.length).split(" ");
 
     switch(args[0]){
