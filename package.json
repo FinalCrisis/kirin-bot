@@ -1,16 +1,13 @@
 {
-  "name": "discord-bot",
+  "name": "Test",
+  "description": "Test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
-  "author": "Mengueche",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.5.1",
-    "ms": "^2.1.2"
-  },
-  "devDependencies": {},
-  "description": ""
+"dependencies": {
+   "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
 }
