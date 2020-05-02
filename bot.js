@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 const PREFIX = '$';
 
-bot.on('message', msg=>{
+client.on('message', msg=>{
     if(msg.content === "Hola Kirin"){
         msg.reply('Bienvenid@, disfruta de tu aventura en Final Crisis');
     }
