@@ -3,9 +3,9 @@ const client = new Discord.Client();
 
 const PREFIX = '$';
 
-client.on('message', msg=>{
-    if(msg.content === "Hola Kirin"){
-        msg.reply('Bienvenid@, disfruta de tu aventura en Final Crisis');
+client.on('message', message => {
+    if (message.content === "Hola Kirin"){
+        message.reply('Bienvenid@, disfruta de tu aventura en Final Crisis');
     }
 
 })
