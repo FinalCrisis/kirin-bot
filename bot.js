@@ -11,4 +11,6 @@ client.on('message', message => {
     }
 });
 
+//Hola
+
 client.login(process.env.BOT_TOKEN);
