@@ -49,7 +49,7 @@ var capitalCarba = 115;
 var capitalLucia = 520;
 var capitalPablo = 10;
 var capitalOscar = 14;
-var capitalCamilo = 150;
+var capitalCamilo = 140;
 var capitalBrais = 120;
 var capitalSebas = 390;
 //===============================================
