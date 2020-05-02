@@ -19,8 +19,7 @@ var rolPablo = 'P';
 var rolOscar = 'O';
 var rolCamilo = 'Ca';
 var rolBrais = 'B';
-var rolSebas = 'S';
-
+var rolSebas = 'S'
 
 
 
@@ -45,14 +44,14 @@ var rolSebas = 'S';
 
 
 //VARIABLES ECONOMÍA ============================
-var capitalDani = 10;
-var capitalCarba = 11;
-var capitalLucia = 12;
-var capitalPablo = 13;
+var capitalDani = 150;
+var capitalCarba = 65;
+var capitalLucia = 520;
+var capitalPablo = 10;
 var capitalOscar = 14;
-var capitalCamilo = 15;
-var capitalBrais = 16;
-var capitalSebas = 16145788;
+var capitalCamilo = 150;
+var capitalBrais = 120;
+var capitalSebas = 390;
 //===============================================
 
 bot.on('ready', () =>{
