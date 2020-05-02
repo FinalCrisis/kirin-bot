@@ -45,7 +45,7 @@ var rolSebas = 'S'
 
 //VARIABLES ECONOMÍA ============================
 var capitalDani = 150;
-var capitalCarba = 65;
+var capitalCarba = 115;
 var capitalLucia = 520;
 var capitalPablo = 10;
 var capitalOscar = 14;
