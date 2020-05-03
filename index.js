@@ -2,7 +2,6 @@ const {Client, RichEmbed} = require('discord.js');
 const bot = new Client();
 const Discord = require("discord.js");
 
-const token = 'NzA1NDI4NDQwNTY3Nzc1MzEy.Xq3NUw.yshTudtOTs9cIUZ2hr6MoBAgPjM';
 
 //DELIMITADOR====================================
 const PREFIX = 'invocar ';
