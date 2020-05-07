@@ -1,0 +1,7 @@
+- Crear sistema de inventario y objetos.
+    MÉTODO: Conexión base de datos MySQL
+    PUNTOS CLAVE:
+        - Objetos(normales)
+        - Objetos clave
+        - Tesoros
+        - Comando agregar/quitar objetos
